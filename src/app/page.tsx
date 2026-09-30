@@ -36,7 +36,10 @@ export default async function Page({ searchParams }: PageProps) {
         categories={categories.map((c) => ({ id: c.id, name: c.name }))}
       />
 
-      <main id="menu" className="mx-auto max-w-5xl space-y-14 px-4 py-10 sm:px-5">
+      <main
+        id="menu"
+        className="mx-auto max-w-5xl space-y-14 px-4 py-10 sm:px-5"
+      >
         {specialItem && (
           <TodaySpecial
             item={specialItem}

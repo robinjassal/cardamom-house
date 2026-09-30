@@ -3,7 +3,7 @@
 A public-facing menu page for a fictional Lisbon brunch café.  
 Built as the Frontend Trial Task for **Kwill**.
 
-**Live demo:** (deploy to Vercel after pushing)
+**Live demo:** https://cardamom-house-six.vercel.app/
 
 ## Quick start
 
@@ -18,11 +18,11 @@ Open [http://localhost:3000](http://localhost:3000).
 
 Switch states via URL query param:
 
-| URL | Behaviour |
-|-----|-----------|
-| `/` or `/?state=open` | Tuesday 11:30 — café is open, special available |
-| `/?state=closed` | Monday — café closed, friendly banner shown |
-| `/?state=special-sold-out` | Open, but Saffron French Toast is sold out |
+| URL                        | Behaviour                                       |
+| -------------------------- | ----------------------------------------------- |
+| `/` or `/?state=open`      | Tuesday 11:30 — café is open, special available |
+| `/?state=closed`           | Monday — café closed, friendly banner shown     |
+| `/?state=special-sold-out` | Open, but Saffron French Toast is sold out      |
 
 A small state switcher is also available in the footer.
 
